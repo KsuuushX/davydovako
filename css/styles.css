@@ -1,0 +1,31 @@
+body {
+    font-family: Inter, serif;
+}
+table {
+    border: rgb(37, 167, 156) 1px solid;
+    border-radius: 8px;
+}
+th {
+    padding: 10px 20px 10px 20px;
+    border: rgb(121, 27, 27) 1px solid;
+}
+td {
+    padding: 10px 20px 10px 20px;
+    border: rgb(0, 0, 0) 1px solid;
+}
+tr {
+    text-align: left;
+}
+#tableTodo {
+    width: 1074px;
+}
+#buttonTodo {
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    border-radius: 8px;
+    background: rgb(236, 91, 241);
+    color: white;
+    transform: translateX(-20px);
+}
